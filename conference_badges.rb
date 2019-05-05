@@ -15,3 +15,8 @@ def batch_badge_creator(listofnames)
   end
   return listoftags
 end
+
+
+def assign_rooms(attendees)
+  
+end
