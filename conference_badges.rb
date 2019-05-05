@@ -22,5 +22,6 @@ def assign_rooms(attendees)
   start = 0
   room = start + 1 
   while start < length do
-    
+    namepull = attendees.fetch(start)
+    phrase = "Hello, #{namepull}"
 end
