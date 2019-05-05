@@ -18,5 +18,9 @@ end
 
 
 def assign_rooms(attendees)
-  
+  length = attendees.length
+  start = 0
+  room = start + 1 
+  while start < length do
+    
 end
