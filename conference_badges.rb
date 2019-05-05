@@ -3,7 +3,7 @@ def badge_maker(name)
 end
 
 
-def batch_badge_maker(listofnames)
+def batch_badge_creator(listofnames)
   listoftags = Array.new()
   length = listofnames.length 
   start = 0 
