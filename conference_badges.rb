@@ -8,4 +8,5 @@ def badge_maker(listofnames)
     listoftags.push(phrase)
     start += 1 
   end
+  return listoftags
 end
