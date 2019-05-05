@@ -1,4 +1,8 @@
-def badge_maker(listofnames)
+def badge_maker(name)
+  puts "Hello, my name is #{name)."
+
+
+def batch_badge_maker(listofnames)
   listoftags = Array.new()
   length = listofnames.length 
   start = 0 
