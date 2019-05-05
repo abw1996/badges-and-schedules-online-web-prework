@@ -8,7 +8,7 @@ def batch_badge_creator(listofnames)
   length = listofnames.length 
   start = 0 
   while start < length do
-    namepull = listofnames.fetchler(start)
+    namepull = listofnames.fetch(start)
     phrase = "Hello, my name is #{namepull}."
     listoftags.push(phrase)
     start += 1 
