@@ -1,2 +1,2 @@
 def badge_maker(listofnames)
-  listoftags
+  listoftags = Array.new()
