@@ -32,7 +32,7 @@ end
 return assignments
 end
 
-def printer
+def printer(arg)
   puts batch_badge_creator
   puts 
 end
