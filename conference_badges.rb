@@ -33,5 +33,5 @@ return assignments
 end
 
 def printer(arg)
-  puts arg
+  puts batch_badge_creator(arg)
 end
