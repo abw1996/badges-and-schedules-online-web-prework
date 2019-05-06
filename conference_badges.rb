@@ -25,5 +25,6 @@ def assign_rooms(attendees)
   while start < length do
     namepull = attendees.fetch(start)
     phrase = "Hello, #{namepull} You'll be assigned to room #{room}!"
-    
+    assignments.push(phrase)
+    start += 1 
 end
