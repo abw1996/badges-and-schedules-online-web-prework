@@ -42,7 +42,7 @@ def printer(arg)
   glerb = arg.length 
   smack = 0
   while smack < glerb do 
-    puts assign_room(arg).fetch(smack)
+    puts assign_rooms(arg).fetch(smack)
     smack += 1 
   end
   
