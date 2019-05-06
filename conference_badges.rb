@@ -28,4 +28,5 @@ def assign_rooms(attendees)
     assignments.push(phrase)
     start += 1 
 end
+return assignments
 end
