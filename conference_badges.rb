@@ -34,5 +34,4 @@ end
 
 def printer(arg)
   puts arg
-  puts 
 end
