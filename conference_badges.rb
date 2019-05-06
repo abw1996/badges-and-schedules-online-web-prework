@@ -18,11 +18,11 @@ end
 
 
 def assign_rooms(attendees)
-  length = attendees.length
+  bleep = attendees.length
   start = 0
   room = start + 1 
   assignments = Array.new()
-  while start < length do
+  while start < bleep do
     namepull = attendees.fetch(start)
     phrase = "Hello, #{namepull} You'll be assigned to room #{room}!"
     assignments.push(phrase)
