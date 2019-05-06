@@ -33,5 +33,17 @@ return assignments
 end
 
 def printer(arg)
-  puts badge_maker(arg)
+  boop = arg.length
+  start = 0
+  while start < boop do 
+    puts batch_badge_creator(arg).fetch(start)
+    start += 1
+  end
+  glerb = arg.length 
+  smack = 0
+  while smack < glerb do 
+    puts assign_room(arg).fetch(smack)
+    smack += 1 
+  end
+  
 end
